@@ -1,0 +1,15 @@
+STRING:(['"])(.*?)(\1)
+FLOAT:\d+\.\d*
+INTEGER:\d+
+IDENTIFIER:\w+\b
+
+EQUAL:=
+PLUS:\+
+MINUS:\-
+MUL:\*
+DIV:\/
+MOD:\%
+
+L_PAREN:\(
+R_PAREN:\)
+SEMICOLON:;

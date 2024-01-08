@@ -43,6 +43,9 @@ class Tokenizer:
                 raise RuntimeError("Something's wrong")
         return tokens
 
+    def parse(self, tokens):
+        pass
+
 
 lang: str = ""
 with open("language.txt", "r") as file:
